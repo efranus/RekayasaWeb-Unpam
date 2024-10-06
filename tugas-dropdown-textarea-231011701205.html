@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <title>Dropdown dan Textarea</title>
+</head>
+<body>
+    <div class="container my-4">
+        <h2>Feedback Pelanggan</h2>
+        <form>
+            <div class="mb-3">
+                <label class="form-label">Topik Feedback</label>
+                <select class="form-select" required>
+                    <option value="">Pilih...</option>
+                    <option value="Pelayanan">Pelayanan</option>
+                    <option value="Produk">Produk</option>
+                    <option value="Lainnya">Lainnya</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Detail Feedback</label>
+                <textarea class="form-control" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Kirim</button>
+        </form>
+    </div>
+</body>
+</html>

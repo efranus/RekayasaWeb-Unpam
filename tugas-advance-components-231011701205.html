@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <title>Pemesanan Tiket</title>
+</head>
+<body>
+    <div class="container my-4">
+        <h2>Pemesanan Tiket Online</h2>
+        <form>
+            <div class="mb-3">
+                <label for="date" class="form-label">Tanggal</label>
+                <input type="date" class="form-control" id="date" required>
+            </div>
+            <div class="mb-3">
+                <label for="ticket-amount" class="form-label">Jumlah Tiket</label>
+                <input type="number" class="form-control" id="ticket-amount" min="1" required>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="terms" required>
+                <label class="form-check-label" for="terms">Saya setuju dengan syarat dan ketentuan</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Pesan</button>
+        </form>
+    </div>
+</body>
+</html>
